@@ -4,7 +4,7 @@ namespace Vsite.CSharp
 {
     public class ZamjenaObjekata
     {
-        // TODO: Promijeniti metodu tako da se zamjena odrazi u pozivajućem kodu.
+        //  Promijeniti metodu tako da se zamjena odrazi u pozivajućem kodu.
         static void Zamijeni(ref object s1, ref object s2)
         {
             object temp = s2;
@@ -36,7 +36,7 @@ namespace Vsite.CSharp
             Console.WriteLine("prvi = '{0}'", prvi);
             Console.WriteLine("drugi = '{0}'", drugi);
 
-            // TODO: Promijeniti metodu Zamijeni tako da umjesto tipa string prima tip object i tako podržava zamjenu bilo kojeg tipa objekta. Dodati poziv te metode za 2 argumenta tipa int te provjeriti funkcionalnost.
+            //  Promijeniti metodu Zamijeni tako da umjesto tipa string prima tip object i tako podržava zamjenu bilo kojeg tipa objekta. Dodati poziv te metode za 2 argumenta tipa int te provjeriti funkcionalnost.
             object prviint = prvi;
             object drugiint = drugi;
 

@@ -42,6 +42,7 @@ namespace Vsite.CSharp
             string s1 = "Mirko";
             string s2 = "Slavko";
             IspišiPar(s1, s2);
+
             ZamijeniGenerički(ref s1, ref s2);
             IspišiPar(s1, s2);
 
